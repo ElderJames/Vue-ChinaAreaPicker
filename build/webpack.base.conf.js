@@ -39,6 +39,10 @@ module.exports = {
         include: [resolve('src'), resolve('test')]
       },
       {
+        test: /muse-ui.src.*?js$/,
+        loader: 'babel-loader'
+      },
+      {
         test: /\.less$/,
         loaders: ['autoprefixer-loader', 'raw-loader', 'less-loader', 'style-loader'],
         include: [resolve('src'), resolve('test')]
