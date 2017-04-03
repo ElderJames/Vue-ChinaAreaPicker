@@ -43,6 +43,10 @@ module.exports = {
         loader: 'babel-loader'
       },
       {
+        test: /linq-es6.src.*?js$/,
+        loader: 'babel-loader'
+      },
+      {
         test: /\.less$/,
         loaders: ['autoprefixer-loader', 'raw-loader', 'less-loader', 'style-loader'],
         include: [resolve('src'), resolve('test')]
