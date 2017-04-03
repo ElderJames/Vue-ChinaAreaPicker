@@ -1,6 +1,8 @@
 # test
 
-> A Vue.js project
+> Vue中国地区选择器组件
+
+使用到的包: vue2 + webpack2 + vue-router2 + muse-ui
 
 ## Build Setup
 
