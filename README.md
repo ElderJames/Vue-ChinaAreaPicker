@@ -1,8 +1,11 @@
-# test
+# Vue中国地区选择器组件
 
-> Vue中国地区选择器组件
+> 使用到的包: vue2 + webpack2 + vue-router2 + muse-ui
 
-使用到的包: vue2 + webpack2 + vue-router2 + muse-ui
+
+### 截图：
+
+![](https://raw.githubusercontent.com/ElderJames/Vue-ChinaAreaPicker/master/screenshot/picker.gif)
 
 ## Build Setup
 
